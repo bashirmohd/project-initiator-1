@@ -1,13 +1,14 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/bashirmohd/project-initiator-1/blob/main/assets/images/logo.png" alt="Markdownify" width="200"></a>
   <br>
   Markdownify
   <br>
 </h1>
 
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">QUANT-NET runs as a distributed system. The QN server coordinates all activities in the network, manages and schedules quantum network resources like Q-nodes & BSM-nodes through agents to perform quantum network functions. 
+This Demo demonstrates the registration, confirmation, keep alive and de-registration process for the QUANT-NET distributed agents, based on features provided by MQTT messaging protocols</h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
@@ -32,7 +33,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![screenshot](https://github.com/bashirmohd/project-initiator-1/blob/main/assets/images/main.gif)
 
 ## Key Features
 
