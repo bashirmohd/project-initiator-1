@@ -33,11 +33,12 @@ This Demo demonstrates the registration, confirmation, keep alive and de-registr
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://github.com/bashirmohd/project-initiator-1/blob/main/assets/images/main.gif)
-
 <p align="center">
-<img src="https://github.com/bashirmohd/project-initiator-1/blob/main/assets/images/main.gif" width="80%" height="60%" title="gif logo">
+![screenshot](https://github.com/bashirmohd/project-initiator-1/blob/main/assets/images/main.gif)
 <p>
+
+<!-- <img src="https://github.com/bashirmohd/project-initiator-1/blob/main/assets/images/main.gif" width="80%" height="60%" title="gif logo"> -->
+
 
 ## Key Features
 
