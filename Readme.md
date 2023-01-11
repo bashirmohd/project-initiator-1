@@ -7,29 +7,33 @@
   <br> -->
 </h1>
 
-<!-- <h4 align="center">QUANT-NET runs as a distributed system. The QN server coordinates all activities in the network, manages and schedules quantum network resources like Q-nodes & BSM-nodes through agents to perform quantum network functions. 
-This Demo demonstrates the registration, confirmation, keep alive and de-registration process for the QUANT-NET distributed agents, based on features provided by MQTT messaging protocols</h4> -->
+<h4 align="center">The Q-node agent for Quant-Net by ESnet</h4>
 
 <p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
-  </a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
-  </a>
-  <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
-  </a>
+<a href="https://github.com/quant-net/quant-net-agent/blob/main/LICENSE" title="License">
+<img src="https://img.shields.io/github/license/king-technologies/Project-Initiator?label=License&logo=Github&style=flat-square" alt="Project Initiator License"/>
+</a>
+<a href="https://github.com/quant-net/quant-net-agent/fork" title="Forks">
+<img src="https://img.shields.io/github/forks/king-technologies/Project-Initiator?label=Forks&logo=Github&style=flat-square" alt="Project Initiator Forks"/>
+</a>
+
+<a href="https://github.com/quant-net/quant-net-agent/issues" title="Issues">
+<img src="https://img.shields.io/github/issues/king-technologies/Project-Initiator?label=Issues&logo=Github&style=flat-square" alt="Project Initiator Issues"/>
+</a>
+<a href="https://github.com/quant-net/quant-net-agent/pulls" title="Pull Requests">
+<img src="https://img.shields.io/github/issues-pr/king-technologies/Project-Initiator?label=Pull%20Requests&logo=Github&style=flat-square" alt="Project Initiator Pull Requests"/>
+</a>
+<a href="https://github.com/quant-net/quant-net-agent" title="Repo Size">
+<img src="https://img.shields.io/github/repo-size/king-technologies/Project-Initiator?label=Repo%20Size&logo=Github&style=flat-square" alt="Project Initiator Repo Size"/>
+</a>
 </p>
 
 <p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
+  <a href="#Quant-Net-Agent"> Quant-Net Agent</a> •
+  <a href="#Pre-requisite">Pre-requisite</a> •
+  <a href="#How-to-set-up">How To Set up</a> •
+  <a href="#credits">Download</a> •
+  <a href="#related">Emailware</a> •
   <a href="#license">License</a>
 </p>
 
@@ -40,93 +44,53 @@ This Demo demonstrates the registration, confirmation, keep alive and de-registr
 <!-- <img src="https://github.com/bashirmohd/project-initiator-1/blob/main/assets/images/main.gif" width="80%" height="60%" title="gif logo"> -->
 
 
-## Key Features
+## Quant-Net Agent
 
 QUANT-NET runs as a distributed system. The QN server coordinates all activities in the network, manages and schedules quantum network resources like Q-nodes & BSM-nodes through agents to perform quantum network functions. 
 
 This Demo demonstrates the registration, confirmation, keep alive and de-registration process for the QUANT-NET distributed agents, based on features provided by MQTT messaging protocols
 
 
-## Key Features
+## Pre-requisite
 
-* LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-* Sync Scrolling
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
+* Opertaing System
+  - This set up was done using Linux Ubuntu
+* Programming Language
+  - Python version 3.9 >.
 
-## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+## How To Set up
+
+ Clone the repository accordingly from your terminal whilst in your home directory. From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone 
 
 # Go into the repository
-$ cd electron-markdownify
+$ cd 
 
 # Install dependencies
-$ npm install
+$ pip3 install -r requirements.txt
 
-# Run the app
-$ npm start
+# To run the demo, on your current terminal run:
+$ server.py
+
+# Open three new terminals and run:
+$ client.py
 ```
 
 > **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+> remember to change your broker ip address to the local ip address of your linux server.
 
 
 ## Download
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
+To Do.
 
 ## Emailware
 
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
-
-## Credits
-
-This software uses the following open source packages:
-
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
-
-## Related
-
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
-
-## Support
-
-<a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-<p>Or</p> 
-
-<a href="https://www.patreon.com/amitmerchant">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
-## You may also like...
-
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
+To Do!
 
 ## License
 
@@ -134,7 +98,4 @@ MIT
 
 ---
 
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
 
