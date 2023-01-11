@@ -33,7 +33,7 @@ This Demo demonstrates the registration, confirmation, keep alive and de-registr
   <a href="#license">License</a>
 </p>
 
-<p align="center">
+<p align="right">
 ![screenshot](https://github.com/bashirmohd/project-initiator-1/blob/main/assets/images/main.gif)
 <p>
 
