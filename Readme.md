@@ -3,8 +3,10 @@
     <img src="./assets/images/logo.png" width="80px" alt="Project Initiator"/>
   </a>
 </p>
-<h1 align="center">🌟 Project Initiator 🌟</h1>
-<p align="center">Start your project with Single Command</p>
+<h1 align="center">🌟 Quant-Net Agent 🌟</h1>
+<p align="center">QUANT-NET runs as a distributed system. The QN server coordinates all activities in the network. This server manages and schedules quantum network resources (Q-nodes, BSM-nodes, M-nodes, and channels) through agents to perform quantum network functions. In this Demo, we demostrate the registration, confirmation, keep alive and de-registration process for the QUANT-NET distributed agents, based on features provided by MQTT messaging protocols. We have Demo Agent 1, 2 and 3 communicating with the QUant_net Server.
+
+A QUANT-NET agent is a daemon process running in the background. Based on the configurations, an agent daemon can instantiate one or multiple agent modules, each of which manages and controls an independent logic entity, such as a Q-node, or a BSM-node. The agent daemon executes registration/de-registration on behave of its modules. Each module collects and provides the related information to the agent daemon. d</p>
 
 <p align="center">
 <a href="https://github.com/king-technologies/Project-Initiator/blob/master/LICENSE" title="License">
