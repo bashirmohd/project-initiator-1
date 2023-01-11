@@ -38,14 +38,6 @@
 
 <p align="center" title="Project Initiator"><img src="./assets/images/main.gif" alt="Project Initiator"/></p>
 
-<h2 align="center">🌐 Links 🌐</h2>
-<p align="center">
-    <a href="https://youtu.be/ud4P45zhCk0" title="Project Initiator using Python">🖥️ Video</a>
-    ·
-    <a href="https://github.com/king-technologies/Project-Initiator" title="Project Initiator">📂 Repo</a>
-    ·
-    <a href="https://github.com/king-technologies/Project-Initiator/issues/new/choose" title="🐛Report Bug/🎊Request Feature">🚀 Got Issue</a>
-</p>
 
 ## 🚀 Features
 
