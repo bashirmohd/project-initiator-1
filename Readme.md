@@ -27,6 +27,7 @@ A QUANT-NET agent is a daemon process running in the background. Based on the co
 
 </p>
 
+<p align="center" title="Project Initiator"><img src="./assets/images/main.gif" alt="Project Initiator"/></p>
 
 
 ## 🚀 Features
