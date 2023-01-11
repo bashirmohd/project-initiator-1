@@ -36,7 +36,7 @@ This Demo demonstrates the registration, confirmation, keep alive and de-registr
 <!-- ![screenshot](https://github.com/bashirmohd/project-initiator-1/blob/main/assets/images/main.gif) -->
 
 <p align="center">
-<img src="https://github.com/bashirmohd/project-initiator-1/blob/main/assets/images/main.gif" width="80%" height="100%" title="gif logo">
+<img src="https://github.com/bashirmohd/project-initiator-1/blob/main/assets/images/main.gif" width="90%" height="80%" title="gif logo">
 <p>
 
 ## Key Features
