@@ -1,146 +1,127 @@
+
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <br>
+  Markdownify
+  <br>
+</h1>
+
+<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+
 <p align="center">
-  <a href="https://github.com/king-technologies/Project-Initiator" title="Project Initiator">
-    <img src="./assets/images/logo.png" width="80px" alt="Project Initiator"/>
+  <a href="https://badge.fury.io/js/electron-markdownify">
+    <img src="https://badge.fury.io/js/electron-markdownify.svg"
+         alt="Gitter">
+  </a>
+  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
+  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+  </a>
+  <a href="https://www.paypal.me/AmitMerchant">
+    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
 </p>
-<h1 align="center">🌟 Quant-Net Agent 🌟</h1>
-<p align="center">QUANT-NET runs as a distributed system. The QN server coordinates all activities in the network. This server manages and schedules quantum network resources (Q-nodes, BSM-nodes, M-nodes, and channels) through agents to perform quantum network functions. In this Demo, we demostrate the registration, confirmation, keep alive and de-registration process for the QUANT-NET distributed agents, based on features provided by MQTT messaging protocols. We have Demo Agent 1, 2 and 3 communicating with the QUant_net Server.
-
-A QUANT-NET agent is a daemon process running in the background. Based on the configurations, an agent daemon can instantiate one or multiple agent modules, each of which manages and controls an independent logic entity, such as a Q-node, or a BSM-node. The agent daemon executes registration/de-registration on behave of its modules. Each module collects and provides the related information to the agent daemon. d</p>
 
 <p align="center">
-<a href="https://github.com/quant-net/quant-net-agent/blob/main/LICENSE" title="License">
-<img src="https://img.shields.io/github/license/king-technologies/Project-Initiator?label=License&logo=Github&style=flat-square" alt="Project Initiator License"/>
-</a>
-<a href="https://github.com/quant-net/quant-net-agent/fork" title="Forks">
-<img src="https://img.shields.io/github/forks/king-technologies/Project-Initiator?label=Forks&logo=Github&style=flat-square" alt="Project Initiator Forks"/>
-</a>
-<a href="https://github.com/king-technologies/Project-Initiator/stargazers" title="Stars">
-<img src="https://img.shields.io/github/stars/king-technologies/Project-Initiator?label=Stars&logo=Github&style=flat-square" alt="Project Initiator Stars"/>
-</a>
-<a href="https://github.com/quant-net/quant-net-agent/pulls" title="Pull Requests">
-<img src="https://img.shields.io/github/issues-pr/king-technologies/Project-Initiator?label=Pull%20Requests&logo=Github&style=flat-square" alt="Project Initiator Pull Requests"/>
-</a>
-<a href="https://github.com/quant-net/quant-net-agent" title="Repo Size">
-<img src="https://img.shields.io/github/repo-size/king-technologies/Project-Initiator?label=Repo%20Size&logo=Github&style=flat-square" alt="Project Initiator Repo Size"/>
-</a>
-
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#related">Related</a> •
+  <a href="#license">License</a>
 </p>
 
-<p align="center" title="Project Initiator"><img src="./assets/images/main.gif" alt="Project Initiator"/></p>
+![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
+## Key Features
 
-## 🚀 Features
+* LivePreview - Make changes, See changes
+  - Instantly see what your Markdown documents look like in HTML as you create them.
+* Sync Scrolling
+  - While you type, LivePreview will automatically scroll to the current location you're editing.
+* GitHub Flavored Markdown  
+* Syntax highlighting
+* [KaTeX](https://khan.github.io/KaTeX/) Support
+* Dark/Light mode
+* Toolbar for basic Markdown formatting
+* Supports multiple cursors
+* Save the Markdown preview as PDF
+* Emoji support in preview :tada:
+* App will keep alive in tray for quick usage
+* Full screen mode
+  - Write distraction free.
+* Cross platform
+  - Windows, macOS and Linux ready.
 
-You are just one command away to start your next project
+## How To Use
 
-- **Create Github Repo**
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-- **Create Organization Repo**
+```bash
+# Clone this repository
+$ git clone https://github.com/amitmerchant1990/electron-markdownify
 
-- **Open Project in [VSCode](https://code.visualstudio.com/ "VSCode")**
+# Go into the repository
+$ cd electron-markdownify
 
-## 🦋 Prerequisite
+# Install dependencies
+$ npm install
 
-- [Python](https://www.python.org/ "Python") Installed
-
-- Python Basics Understanding
-
-- [Git](https://git-scm.com/ "Git OFficial") Installed
-
-- Git Basic Understanding
-
-- [GH](https://cli.github.com/ "Github CLI") Installed
-
-## 🛠️ Installation Steps
-
-1. Clone the repository
-
-```Bash
-git clone https://github.com/king-technologies/Project-Initiator.git
+# Run the app
+$ npm start
 ```
 
-2. Change the working directory
+> **Note**
+> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
-```Bash
-cd Project-Initiator
-```
 
-3. Add Environment Variable path of this directory
+## Download
 
-4. Run the app using terminal
+You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
 
-**🎇 You are Ready to Go!**
+## Emailware
 
-## ❗ Available Commands
+Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
 
-In the project directory, you can run:
+## Credits
 
-```Bash
-create
-```
+This software uses the following open source packages:
 
-Either run this command in the project folder or set the path of `create.bat` in the environmental variable for executing create command anywhere (Run, cmd, or PowerShell).
+- [Electron](http://electron.atom.io/)
+- [Node.js](https://nodejs.org/)
+- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [showdown](http://showdownjs.github.io/showdown/)
+- [CodeMirror](http://codemirror.net/)
+- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
+- [highlight.js](https://highlightjs.org/)
 
-```Bash
-create <project_name>
-```
+## Related
 
-For creating global public repo use this command
+[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
 
-```Bash
-create <project_name> -y
-```
+## Support
 
-## 👷 Built with
+<a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-- [Python](https://www.python.org/ "Python"): as Main Coding Language for executing commands
+<p>Or</p> 
 
-- [Batch](https://en.wikipedia.org/wiki/Batch_file "Batch") : For python file executor
+<a href="https://www.patreon.com/amitmerchant">
+	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
 
-- [Github](https://github.com/ "Github") : For Repo Storage and source code management
+## You may also like...
 
-- [Git](https://git-scm.com/ "Git") : For Version Control System
+- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
+- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
 
-- [Github CLI](https://cli.github.com/ "Github CLI"): For Direct Interacting with Github
+## License
 
-## 📂 Directory Structure
+MIT
 
-> [`create.bat`](https://github.com/king-technologies/Project-Initiator/blob/main/create.bat "Create Command"): Command file that will execute the python file
+---
 
-> [`remote.py`](https://github.com/king-technologies/Project-Initiator/blob/main/remote.py "Main File"): Python file, the main file that contains the script
+> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
+> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
+> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
 
-## 🎊 Future Updates
-
-- [ ] Add project boilerplate automatically for different languages and frameworks
-
-- [ ] Add GUI
-
-- [ ] Add Documentations
-
-- [ ] Add More Commands
-
-## 🧑🏻 Author
-
-**Rohit Jain**
-
-- 🌌 [Profile](https://github.com/Rohit19060 "Rohit Jain")
-
-- 🏮 [Email](mailto:rohitjain19060@gmail.com?subject=Hi%20from%20Project%20Initiator "Hi!")
-
-- 🦁 [Website](https://kingtechnologies.in "Welcome")
-
-<h2 align="center">🤝 Support</h2>
-
-<p align="center">🎀 Contributions (<a href="https://guides.github.com/introduction/flow" title="GitHub flow">GitHub Flow</a>), 🔥 issues, and 🥮 feature requests are most welcome!</p>
-
-<p align="center">💙 If you like this project, Give it a ⭐ and Share it with friends!</p>
-<p align="center">💰 Donations Links</p>
-<p align="center">
-<a href="https://www.paypal.me/kingrohitJ" title="PayPal"><img src="https://kingtechnologies.in/assets/images/Paypal.png" alt="PayPal"/></a>
-<a href="https://www.buymeacoffee.com/rohitjain" title="Buy me a Coffee"><img src="https://kingtechnologies.in/assets/images/Coffee.png" alt="Buy me a Coffee"/></a>
-<a href="https://ko-fi.com/rohitjain" title="Ko-fi"><img src="https://kingtechnologies.in/assets/images/Kofi.png" alt="Ko-fi"/></a>
-<a href="https://www.patreon.com/KingTechnologies" title="Patreon"><img src="https://kingtechnologies.in/assets/images/Patreon.png" alt="Patreon"/></a>
-</p>
-
-<p align="center">Made with Python & ❤️ in India</p>
