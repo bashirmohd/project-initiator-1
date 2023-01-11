@@ -2,13 +2,13 @@
 <h1 align="center">
   <br>
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/bashirmohd/project-initiator-1/blob/main/assets/images/logo.png" alt="Markdownify" width="200"></a>
-  <br>
+  <!-- <br>
   Markdownify
-  <br>
+  <br> -->
 </h1>
 
-<h4 align="center">QUANT-NET runs as a distributed system. The QN server coordinates all activities in the network, manages and schedules quantum network resources like Q-nodes & BSM-nodes through agents to perform quantum network functions. 
-This Demo demonstrates the registration, confirmation, keep alive and de-registration process for the QUANT-NET distributed agents, based on features provided by MQTT messaging protocols</h4>
+<!-- <h4 align="center">QUANT-NET runs as a distributed system. The QN server coordinates all activities in the network, manages and schedules quantum network resources like Q-nodes & BSM-nodes through agents to perform quantum network functions. 
+This Demo demonstrates the registration, confirmation, keep alive and de-registration process for the QUANT-NET distributed agents, based on features provided by MQTT messaging protocols</h4> -->
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
@@ -34,6 +34,13 @@ This Demo demonstrates the registration, confirmation, keep alive and de-registr
 </p>
 
 ![screenshot](https://github.com/bashirmohd/project-initiator-1/blob/main/assets/images/main.gif)
+
+## Key Features
+
+QUANT-NET runs as a distributed system. The QN server coordinates all activities in the network, manages and schedules quantum network resources like Q-nodes & BSM-nodes through agents to perform quantum network functions. 
+
+This Demo demonstrates the registration, confirmation, keep alive and de-registration process for the QUANT-NET distributed agents, based on features provided by MQTT messaging protocols
+
 
 ## Key Features
 
